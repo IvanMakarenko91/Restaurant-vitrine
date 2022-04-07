@@ -128,3 +128,17 @@ header ul li:hover a::after {
   height: 3px;
   background-color: #000;
 }
+
+.parallax-bg {
+  padding: 25vh;
+  background-image: url(chef.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.espace {
+  height: 75vh;
+}

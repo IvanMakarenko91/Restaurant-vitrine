@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Parisienne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quattrocento+Sans&family=Roboto:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quattrocento+Sans&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quattrocento+Sans&family=Roboto:wght@100;300&family=Ubuntu:ital,wght@1,300&display=swap');
 
 * {
   margin: 0;
@@ -23,9 +22,12 @@ header {
 
 header .menu {
   position: relative;
-  color: white;
-  text-decoration: none;
   transition: 1s;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
 }
 
 header ul {
@@ -83,7 +85,7 @@ header ul li:hover a::after {
 
 a:hover {
   text-decoration: none;
-  color: rgb(238, 214, 1);
+  color: rgb(255, 238, 0);
 }
 
 .banner {
@@ -92,10 +94,10 @@ a:hover {
   height: 90vh;
   top: 0;
   left: 0;
-  background: url(/images/resto.jpg);
+  background: url(/images/restos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   border-bottom: 1px solid black;
 }
 
@@ -174,8 +176,21 @@ a:hover {
 .img1, .img2, .img3, .img4 {
   position: relative;
   padding: 5%;
-  background-image: url(/images/cooking.jpg);
   background-size: cover;
+  border-radius: 5%;
+}
+
+.img1 {
+  background-image: url(/images/asperges.jpg);
+}
+.img2 {
+  background-image: url(/images/langoustine.jpg);
+}
+.img3 {
+  background-image: url(/images/fromage.jpg);
+}
+.img4 {
+  background-image: url(/images/fraises.jpg);
 }
 
 footer {
@@ -205,13 +220,14 @@ footer a {
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 4rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 button {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.5rem;
-  background: linear-gradient(45deg,rgb(218, 217, 211),rgb(211, 175, 15));
+  font-size: 1.8rem;
+  background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
+  border-radius: 10%;
 }
 
 button:hover {
@@ -219,6 +235,6 @@ button:hover {
 }
 
 .rbt {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.2rem;
 }

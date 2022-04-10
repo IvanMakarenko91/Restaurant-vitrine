@@ -45,7 +45,7 @@ header ul li a {
   display: inline-block;
   color: black;
 }
-/* header ul li a::before {
+header ul li a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -72,15 +72,15 @@ header ul li a::after {
 
 header ul li:hover a::before,
 header ul li:hover a::after {
-  border-color: red;
+  border-color: rgb(0, 0, 0);
   width: 100%;
   height: 100%;
-} */
+}
 
-/* a:hover {
+a:hover {
   text-decoration: none;
-  color: rgb(204, 26, 26);
-} */
+  color: rgb(238, 214, 1);
+}
 
 .banner {
   position: relative;

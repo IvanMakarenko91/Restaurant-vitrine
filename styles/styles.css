@@ -88,6 +88,22 @@ a:hover {
   color: rgb(255, 238, 0);
 }
 
+nav a:hover {
+  color: rgb(17, 0, 255);
+}
+
+@media (max-width: 850px) {
+  header {
+    display: none;
+  }
+}
+
+@media (min-width: 851px) {
+  .navbar {
+    display: none;
+  }
+}
+
 .banner {
   position: relative;
   width: 100%;

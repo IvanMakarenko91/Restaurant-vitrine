@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quattrocento+Sans&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quattrocento+Sans&family=Roboto:wght@100;300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -111,11 +115,11 @@ a:hover {
 
 .information {
   text-align: center;
-  height: 10vh;
+  min-height: 10vh;
 }
 .information2 {
   text-align: center;
-  height: 20vh;
+  min-height: 20vh;
 }
 
 .barre::after {
@@ -191,4 +195,24 @@ footer {
 
 footer a {
   color: white;
+}
+
+.barre {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+}
+
+button {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+.rbt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }

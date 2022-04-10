@@ -88,7 +88,7 @@ header ul li:hover a::after {
   height: 90vh;
   top: 0;
   left: 0;
-  background: url(resto.jpg);
+  background: url(/images/resto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -138,7 +138,7 @@ header ul li:hover a::after {
   margin: 0;
   position: relative;
   padding: 14%;
-  background-image: url(chef.jpg);
+  background-image: url(/images/chef.jpg);
   background-size: cover;
   background-attachment: fixed;
   -webkit-transition: all 0.5s ease;
@@ -166,6 +166,29 @@ header ul li:hover a::after {
   clip-path: polygon(100% 0, 100% 0, -100% 0%, 100% 200%);
 }
 
-.espace {
-  height: 75vh;
+
+.img1, .img2, .img3, .img4 {
+  position: relative;
+  padding: 5%;
+  background-image: url(/images/cooking.jpg);
+  background-size: cover;
+}
+
+footer {
+  min-height: 25vh;
+  background-color: black;
+  color: white;
+}
+
+.barre-yellow::after {
+  content: "";
+  display: block;
+  margin-top: 15px;
+  width: 80px;
+  height: 3px;
+  background-color: rgb(223, 190, 43);
+}
+
+footer a {
+  color: white;
 }

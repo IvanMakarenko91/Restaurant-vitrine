@@ -276,10 +276,17 @@ nav a:hover {
 }
 
 
-.img1, .img2, .img3, .img4 {
+.img1, .img2, .img3, .img4,  .img6 {
   position: relative;
   padding: 15%;
   background-size: cover;
+  border-radius: 5%;
+}
+.img5{
+  position: relative;
+  padding: 15%;
+  background-size: cover;
+  background-position: center;
   border-radius: 5%;
 }
 
@@ -292,6 +299,7 @@ nav a:hover {
   }
 }
 
+
 .img1 {
   background-image: url(/images/asperges.jpg);
 }
@@ -303,6 +311,18 @@ nav a:hover {
 }
 .img4 {
   background-image: url(/images/fraises.jpg);
+}
+.img5 {
+  background-image: url(/images/plat.jpg);
+}
+.img6 {
+  background-image: url(/images/dessert.jpg);
+}
+
+@media (min-width:500px){
+  .img5, .img6 {
+    display: none;
+  }
 }
 
 footer {

@@ -105,6 +105,34 @@ button {
   border-radius: 5%;
 }
 
+/* Page pricipale */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  top: 0;
+  left: 0;
+  background: url(/images/restos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid black;
+}
+
+.principale {
+  text-align: center;
+  position: absolute;
+  top: 27%;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
 
 /* Footer -----------------------------------------------   */
 footer {

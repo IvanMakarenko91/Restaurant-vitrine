@@ -179,6 +179,19 @@ nav a:hover {
   font-size: 1.8rem;
   color: white;
 }
+
+.degrade2 {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 1;
+  clip-path: polygon(100% 0, 100% 0, -100% 0%, 100% 200%);
+  color: white;
+  font-size: 1.8rem;
+}
+
 @media (max-width:800px){
   .parallax-bg{
   padding: 52%;
@@ -186,10 +199,13 @@ nav a:hover {
   .degrade{
     left: 8%;
     }
+  .degrade2{
+    right: 8%;
+  }
 }
 
 @media (max-width:440px){
-  .degrade .rbt{
+  .degrade .rbt, .degrade2 .rbt{
     font-size: 1rem;
   }
   .parallax-bg{
@@ -215,6 +231,9 @@ nav a:hover {
   .degrade{
     left: 0%;
   }
+  .degrade2{
+    right: 0%;
+  }
 }
 
 @media (min-width:768px){
@@ -224,22 +243,36 @@ nav a:hover {
   .degrade {
     left: 0%;
   }
+  .degrade2{
+    right: 0%;
+  }
 }
+
+@media (min-width:992px){
+  .parallax-bg{
+    padding: 17%;
+  }
+} 
 
 @media (min-width:1339px){
   .parallax-bg{
     padding: 14%;
   }
-}
+} 
 
-.degrade2 {
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  z-index: 1;
-  clip-path: polygon(100% 0, 100% 0, -100% 0%, 100% 200%);
+@media (min-width:1600px){
+  .parallax-bg{
+    padding: 12%;
+  }
+} 
+
+@media (min-width:1850px) {
+  .degrade{
+    height: 65%;
+  }
+  .degrade2{
+    height: 50%;
+  }
 }
 
 

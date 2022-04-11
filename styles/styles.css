@@ -6,6 +6,8 @@
   padding: 0;
 }
 
+
+/* Header ----------------------------------------------- */
 header {
   position: fixed;
   width: 100%;
@@ -83,13 +85,15 @@ header ul li:hover a::after {
   height: 100%;
 }
 
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
 a:hover {
   text-decoration: none;
   color: rgb(255, 238, 0);
-}
-
-nav a:hover {
-  color: rgb(17, 0, 255);
 }
 
 @media (max-width: 850px) {
@@ -104,6 +108,37 @@ nav a:hover {
   }
 }
 
+button {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
+  border-radius: 5%;
+}
+
+button:hover {
+  color: white;
+}
+
+@media (max-width:800px){
+  button {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:350px){
+  button {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Navbar -----------------------------------------------  */
+nav a:hover {
+  color: rgb(17, 0, 255);
+}
+
+/* Section page principale -----------------------------------------------  */
 .banner {
   position: relative;
   width: 100%;
@@ -131,6 +166,7 @@ nav a:hover {
   width: 100%;
 }
 
+/* Section information  -----------------------------------------------  */
 .information {
   text-align: center;
   min-height: 10vh;
@@ -151,6 +187,8 @@ nav a:hover {
   background-color: #000;
 }
 
+
+/* Parallax 1 et 2 -----------------------------------------------  */
 .parallax {
   padding: 0;
   margin: 0;
@@ -275,7 +313,7 @@ nav a:hover {
   }
 }
 
-
+/* Aside avec images -----------------------------------------------  */
 .img1, .img2, .img3, .img4,  .img6 {
   position: relative;
   padding: 15%;
@@ -288,15 +326,6 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   border-radius: 5%;
-}
-
-@media (min-width:576px) {
-  .img1, .img2, .img3, .img4 {
-  position: relative;
-  padding: 8%;
-  background-size: cover;
-  border-radius: 5%;
-  }
 }
 
 
@@ -319,12 +348,22 @@ nav a:hover {
   background-image: url(/images/dessert.jpg);
 }
 
+@media (min-width:576px) {
+  .img1, .img2, .img3, .img4 {
+  position: relative;
+  padding: 8%;
+  background-size: cover;
+  border-radius: 5%;
+  }
+}
+
 @media (min-width:500px){
   .img5, .img6 {
     display: none;
   }
 }
 
+/* Footer -----------------------------------------------   */
 footer {
   min-height: 25vh;
   background-color: black;
@@ -344,40 +383,10 @@ footer a {
   color: white;
 }
 
+/* Divers */
 .barre {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
-}
-
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 4rem;
-  color: rgb(255, 255, 255);
-}
-
-button {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.8rem;
-  background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
-  border-radius: 5%;
-}
-
-button:hover {
-  color: white;
-}
-
-@media (max-width:800px){
-  button {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width:350px){
-  button {
-    font-size: 1.2rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
 }
 
 .rbt {

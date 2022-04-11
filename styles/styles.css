@@ -176,6 +176,60 @@ nav a:hover {
   top: 0%;
   z-index: 1;
   clip-path: polygon(100% 0, 100% 0, -100% 0%, 100% 200%);
+  font-size: 1.8rem;
+  color: white;
+}
+@media (max-width:800px){
+  .parallax-bg{
+  padding: 52%;
+  }
+  .degrade{
+    left: 8%;
+    }
+}
+
+@media (max-width:440px){
+  .degrade .rbt{
+    font-size: 1rem;
+  }
+  .parallax-bg{
+    padding: 52%;
+  }
+}
+@media (max-width:350px){
+  .parallax-bg{
+    height: 65vh;
+  }
+}
+
+@media (max-width:290px){
+  .parallax-bg{
+    height: 80vh;
+  }
+}
+
+@media (min-width:500px) and (max-width:767px){
+  .parallax-bg{
+    padding: 38%;
+  }
+  .degrade{
+    left: 0%;
+  }
+}
+
+@media (min-width:768px){
+  .parallax-bg{
+    padding: 20%;
+  }
+  .degrade {
+    left: 0%;
+  }
+}
+
+@media (min-width:1339px){
+  .parallax-bg{
+    padding: 14%;
+  }
 }
 
 .degrade2 {

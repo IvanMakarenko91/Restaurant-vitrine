@@ -133,6 +133,19 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+@media (max-width:522px){
+  .principale {
+    top: 25%;
+  }
+}
+
+/* Page principale */
+.card {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1000px;
+}
+
 /* Footer -----------------------------------------------   */
 footer {
   min-height: 25vh;

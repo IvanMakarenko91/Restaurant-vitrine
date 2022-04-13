@@ -93,7 +93,7 @@ h1 {
 
 a:hover {
   text-decoration: none;
-  color: rgb(255, 238, 0);
+  color: rgb(255, 0, 119);
 }
 
 @media (max-width: 850px) {
@@ -113,6 +113,13 @@ button {
   font-size: 1.8rem;
   background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
   border-radius: 5%;
+}
+
+button a {
+  color: black;
+}
+button a:hover {
+  color: white;
 }
 
 button:hover {
@@ -309,7 +316,7 @@ nav a:hover {
     height: 65%;
   }
   .degrade2{
-    height: 50%;
+    height: 60%;
   }
 }
 
@@ -333,7 +340,8 @@ nav a:hover {
   background-image: url(/images/asperges.jpg);
 }
 .img2 {
-  background-image: url(/images/langoustine.jpg);
+  background-image: url(/images/fish.jpg);
+  background-position: center;
 }
 .img3 {
   background-image: url(/images/fromage.jpg);

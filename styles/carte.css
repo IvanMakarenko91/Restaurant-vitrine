@@ -104,6 +104,11 @@ button {
   background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
   border-radius: 5%;
 }
+.boutton-menu {
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(45deg,rgb(218, 217, 211),rgb(45, 144, 190));
+  border-radius: 5%;
+}
 
 /* Page pricipale */
 .banner {

@@ -93,16 +93,16 @@ h1 {
 
 a:hover {
   text-decoration: none;
-  color: rgb(255, 0, 119);
+  color: goldenrod;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   header {
     display: none;
   }
 }
 
-@media (min-width: 851px) {
+@media (min-width: 951px) {
   .navbar {
     display: none;
   }
